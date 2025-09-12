@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "herobrinemod:item/diamond_herobrine_sword_lv1"
+  }
+}

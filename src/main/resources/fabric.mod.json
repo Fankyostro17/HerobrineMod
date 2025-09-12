@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "herobrinemod",
+	"version": "${version}",
+	"name": "Herobrine Mod",
+	"description": "Herobrine Mod by Fanky17!",
+	"authors": [
+		"Fanky17!"
+	],
+	"contact": {
+		"homepage": "https://fanky17.net",
+		"sources": "https://github.com/Fankyostro17/HermobrineMod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/herobrinemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.fanky17.herobrinemod.HerobrineMod"
+		],
+		"fabric-datagen": [
+			"net.fanky17.herobrinemod.HerobrineModDataGenerator"
+		],
+        "client": [
+            "net.fanky17.herobrinemod.HerobrineModClient"
+        ]
+	},
+	"mixins": [
+		"herobrinemod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

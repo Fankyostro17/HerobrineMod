@@ -1,0 +1,13 @@
+{
+  "type": "minecraft_crafting_shapeless",
+  "category": "building",
+  "ingriedients": [
+    {
+      "item": "herobrinemod:ritual_block"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "herobrinemod:ritual_core"
+  }
+}

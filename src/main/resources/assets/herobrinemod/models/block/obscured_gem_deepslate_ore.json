@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "herobrinemod:block/obscured_gem_deepslate_ore"
+  }
+}

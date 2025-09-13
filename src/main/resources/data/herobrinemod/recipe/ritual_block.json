@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "herobrinemod:ritual_core"
+    },
+    "-": {
+      "item": "minecraft:obsidian"
+    },
+    "*": {
+      "item": "herobrinemod:obscured_gem"
+    },
+    "+": {
+      "item": "minecraft:fire_charge"
+    }
+  },
+  "pattern": [
+    "-+-",
+    "*#*",
+    "-+-"
+  ],
+  "result": {
+    "count": 1,
+    "id": "herobrinemod:ritual_block"
+  }
+}

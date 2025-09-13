@@ -3,5 +3,14 @@
   "item.herobrinemod.iron_herobrine_sword": "Iron Herobrine Sword",
   "item.herobrinemod.diamond_herobrine_sword_lv1": "Diamond Herobrine Sword lv1",
   "item.herobrinemod.diamond_herobrine_sword_lv2": "Diamond Herobrine Sword lv2",
-  "item.herobrinemod.diamond_herobrine_sword_lv3": "Diamond Herobrine Sword lv3"
+  "item.herobrinemod.diamond_herobrine_sword_lv3": "Diamond Herobrine Sword lv3",
+  "item.herobrinemod.ritual_core": "Ritual Core",
+  "item.herobrinemod.obscured_gem": "Obscured Gem",
+
+  "block.herobrinemod.ritual_block": "Ritual Block",
+  "block.herobrinemod.obscured_gem_ore": "Obscured Gem Ore",
+  "block.herobrinemod.obscured_gem_deepslate_ore": "Obscured Gem Deepslate Ore",
+  "block.herobrinemod.obscured_gem_block": "Obscured Gem Block",
+
+  "itemgroup.herobrinemod.herobrine_items": "Herobrine Items"
 }

@@ -38,7 +38,7 @@ public class RitualWandItem extends Item {
         Block clickedBlock = world.getBlockState(context.getBlockPos()).getBlock();
 
         if(RITUAL_WAND_MAP.containsKey(clickedBlock)) {
-            if(world.isClient()) {
+            if(!world.isClient()) {
                 world.setBlockState(context.getBlockPos(), RITUAL_WAND_MAP.get(clickedBlock).getDefaultState());
 
                 context.getStack().damage(1, ((ServerWorld) world), ((ServerPlayerEntity) context.getPlayer()),

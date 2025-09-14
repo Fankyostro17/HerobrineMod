@@ -1,1 +1,6 @@
-// 1.21.1	2025-09-14T16:09:31.4151117	Herobrine Mod/Tags for minecraft:item
+// 1.21.1	2025-09-14T22:22:36.7424731	Herobrine Mod/Tags for minecraft:item
+d90968a7479e66ebcd7f262cd18ca286e66d61b5 data\minecraft\tags\item\pickaxes.json
+58632ac3f8ded1e5fd7f50544c674b36b186d1d6 data\minecraft\tags\item\shovels.json
+3dc28c40f6267f6353ae16dc9785e51da321c446 data\minecraft\tags\item\axes.json
+fb2e29a2030ab3f0936593890af1171e0fe926c6 data\minecraft\tags\item\swords.json
+6c8f89fa6c8f30513b3987fc71ce50446d38cfc0 data\minecraft\tags\item\hoes.json

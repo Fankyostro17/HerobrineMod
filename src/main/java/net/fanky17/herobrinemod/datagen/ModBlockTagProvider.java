@@ -30,5 +30,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.OBSCURED_GEM_DEEPSLATE_ORE)
                 .add(ModBlocks.OBSCURED_GEM_BLOCK);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_OBSCURED_GEM_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_GALAXY_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
     }
 }

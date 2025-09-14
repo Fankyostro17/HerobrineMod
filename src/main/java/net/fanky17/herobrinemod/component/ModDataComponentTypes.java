@@ -4,7 +4,6 @@ import net.fanky17.herobrinemod.HerobrineMod;
 import net.minecraft.component.ComponentType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 

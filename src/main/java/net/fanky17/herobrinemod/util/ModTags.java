@@ -9,6 +9,12 @@ import net.minecraft.util.Identifier;
 
 public class ModTags {
     public static class Blocks {
+        public static final TagKey<Block> NEEDS_OBSCURED_GEM_TOOL = createTag("needs_obscured_gem_tool");
+        public static final TagKey<Block> INCORRECT_FOR_OBSCURED_GEM_TOOL = createTag("incorrect_for_obscured_gem_tool");
+
+        public static final TagKey<Block> NEEDS_GALAXY_TOOL = createTag("needs_galaxy_tool");
+        public static final TagKey<Block> INCORRECT_FOR_GALAXY_TOOL = createTag("incorrect_for_galaxy_tool");
+
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(HerobrineMod.MOD_ID, name));
         }

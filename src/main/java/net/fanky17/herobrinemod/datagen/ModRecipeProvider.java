@@ -20,7 +20,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter exporter) {
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.OBSCURED_GEM, RecipeCategory.DECORATIONS, ModBlocks.OBSCURED_GEM_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.OBSCURED_GEM, RecipeCategory.MISC, ModBlocks.OBSCURED_GEM_BLOCK);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RITUAL_BLOCK)
                 .input('#', ModItems.RITUAL_CORE)
@@ -35,9 +35,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RITUAL_CORE), conditionsFromItem(ModItems.RITUAL_CORE))
                 .offerTo(exporter);
 
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.OBSCURED_GEM, 9)
+        /*ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.OBSCURED_GEM, 9)
                 .input(ModBlocks.OBSCURED_GEM_BLOCK)
                 .criterion(hasItem(ModBlocks.OBSCURED_GEM_BLOCK), conditionsFromItem(ModBlocks.OBSCURED_GEM_BLOCK))
-                .offerTo(exporter /*Se voglio aggiungere il nome alla recipe metto qui dentro:, Identifier.of(HerobrineMod.MOD_ID, "obscured_gem_from_obscured_gem_block")*/);
+                .offerTo(exporter /*Se voglio aggiungere il nome alla recipe metto qui dentro:, Identifier.of(HerobrineMod.MOD_ID, "obscured_gem_from_obscured_gem_block"));*/
     }
 }

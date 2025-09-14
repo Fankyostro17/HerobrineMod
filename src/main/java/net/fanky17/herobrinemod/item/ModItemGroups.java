@@ -23,6 +23,13 @@ public class ModItemGroups {
                 entries.add(ModItems.RITUAL_CORE);
                 entries.add(ModItems.OBSCURED_GEM);
                 entries.add(ModItems.RITUAL_WAND);
+                entries.add(ModItems.OBSCURED_GEM_SWORD);
+                entries.add(ModItems.OBSCURED_GEM_PICKAXE);
+                entries.add(ModItems.OBSCURED_GEM_AXE);
+                entries.add(ModItems.OBSCURED_GEM_HOE);
+                entries.add(ModItems.OBSCURED_GEM_SHOVEL);
+                entries.add(ModItems.GALAXY_SWORD);
+                entries.add(ModItems.GALAXY_CORE);
 
                 entries.add(ModBlocks.RITUAL_BLOCK);
                 entries.add(ModBlocks.RITUAL_PEDESTAL);

@@ -7,6 +7,13 @@
   "item.herobrinemod.ritual_core": "Ritual Core",
   "item.herobrinemod.obscured_gem": "Obscured Gem",
   "item.herobrinemod.ritual_wand": "Ritual Wand",
+  "item.herobrinemod.obscured_gem_hoe": "Obscured Gem Hoe",
+  "item.herobrinemod.obscured_gem_sword": "Obscured Gem Sword",
+  "item.herobrinemod.obscured_gem_pickaxe": "Obscured Gem Pickaxe",
+  "item.herobrinemod.obscured_gem_shovel": "Obscured Gem Shovel",
+  "item.herobrinemod.obscured_gem_axe": "Obscured Gem Axe",
+  "item.herobrinemod.galaxy_sword": "Galaxy Sword",
+  "item.herobrinemod.galaxy_core": "Galaxy Core",
 
   "block.herobrinemod.ritual_block": "Ritual Block",
   "block.herobrinemod.ritual_pedestal": "Ritual Pedestal Block",
@@ -15,7 +22,7 @@
   "block.herobrinemod.obscured_gem_block": "Obscured Gem Block",
 
   "itemgroup.herobrinemod.herobrine_items": "Herobrine Items",
-
+  "tooltip.herobrinemod.ritual_core.tooltip": "the heart of everything",
   "tooltip.herobrinemod.ritual_block.tooltip": "Can be used for a gratest ritual",
   "tooltip.herobrinemod.ritual_wand.shift_down": "This item transform Ritual Block into Ritual Pedestal",
   "tooltip.herobrinemod.ritual_wand" : "Press §eShift§r for more Information!",

@@ -23,20 +23,28 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.OBSCURED_GEM_BLOCK);
 
         //blocchi non interi
-        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RITUAL_PEDESTAL);
+        //blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.RITUAL_PEDESTAL);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.OBSCURED_GEM, Models.GENERATED);
         itemModelGenerator.register(ModItems.RITUAL_CORE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GALAXY_CORE, Models.GENERATED);
+
 
         //tool
-        itemModelGenerator.register(ModItems.RITUAL_WAND, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RITUAL_WAND, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BEDROCK_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DIAMOND_HEROBRINE_SWORD_LV1, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DIAMOND_HEROBRINE_SWORD_LV2, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DIAMOND_HEROBRINE_SWORD_LV3, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IRON_HEROBRINE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GALAXY_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OBSCURED_GEM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OBSCURED_GEM_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OBSCURED_GEM_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OBSCURED_GEM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.OBSCURED_GEM_SHOVEL, Models.HANDHELD);
     }
 }

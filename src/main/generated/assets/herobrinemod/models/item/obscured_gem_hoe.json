@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "herobrinemod:item/ritual_wand"
+    "layer0": "herobrinemod:item/obscured_gem_hoe"
   }
 }

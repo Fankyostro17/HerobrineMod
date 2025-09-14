@@ -1,16 +1,13 @@
 {
-  "type": "minecraft_crafting_shapeless",
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "ingriedients": [
-    {
-      "item": "herobrinemod:ritual_block"
-    },
+  "ingredients": [
     {
       "item": "herobrinemod:obscured_gem_block"
     }
   ],
   "result": {
-    "count": 11,
+    "count": 9,
     "id": "herobrinemod:obscured_gem"
   }
 }

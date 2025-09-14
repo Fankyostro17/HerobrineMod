@@ -1,8 +1,5 @@
 {
-  "replace": false,
   "values": [
-    "herobrinemod:ritual_block",
-    "herobrinemod:obscured_gem_ore",
     "herobrinemod:obscured_gem_deepslate_ore",
     "herobrinemod:obscured_gem_block"
   ]

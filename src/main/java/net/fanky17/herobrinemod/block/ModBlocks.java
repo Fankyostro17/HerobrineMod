@@ -1,6 +1,7 @@
 package net.fanky17.herobrinemod.block;
 
 import net.fanky17.herobrinemod.HerobrineMod;
+import net.fanky17.herobrinemod.block.custom.RitualBlock;
 import net.fanky17.herobrinemod.sound.ModSounds;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -16,7 +17,7 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 public class ModBlocks {
 
     public static final Block RITUAL_BLOCK = registerBlock("ritual_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.STONE)));
+           new RitualBlock(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.STONE)));
     public static final Block OBSCURED_GEM_BLOCK = registerBlock("obscured_gem_block",
             new Block(AbstractBlock.Settings.create().strength(20f).requiresTool().sounds(ModSounds.OBSCURED_GEM_BLOCK_SOUNDS)));
     public static final Block OBSCURED_GEM_ORE = registerBlock("obscured_gem_ore",
@@ -25,6 +26,8 @@ public class ModBlocks {
     public static final Block OBSCURED_GEM_DEEPSLATE_ORE = registerBlock("obscured_gem_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block RITUAL_PEDESTAL = registerBlock("ritual_pedestal",
+            new RitualBlock(AbstractBlock.Settings.create().nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

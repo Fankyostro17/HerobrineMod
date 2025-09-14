@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_obscured_gem": {
+      "conditions": {
+        "items": [
+          {
+            "items": "herobrinemod:obscured_gem"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ritual_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": "herobrinemod:ritual_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "herobrinemod:ritual_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_obscured_gem",
+      "has_ritual_core"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "herobrinemod:ritual_block"
+    ]
+  }
+}

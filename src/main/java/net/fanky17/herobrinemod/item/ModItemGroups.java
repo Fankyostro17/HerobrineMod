@@ -22,8 +22,10 @@ public class ModItemGroups {
                 entries.add(ModItems.BEDROCK_SWORD);
                 entries.add(ModItems.RITUAL_CORE);
                 entries.add(ModItems.OBSCURED_GEM);
+                entries.add(ModItems.RITUAL_WAND);
 
                 entries.add(ModBlocks.RITUAL_BLOCK);
+                entries.add(ModBlocks.RITUAL_PEDESTAL);
                 entries.add(ModBlocks.OBSCURED_GEM_BLOCK);
                 entries.add(ModBlocks.OBSCURED_GEM_ORE);
                 entries.add(ModBlocks.OBSCURED_GEM_DEEPSLATE_ORE);

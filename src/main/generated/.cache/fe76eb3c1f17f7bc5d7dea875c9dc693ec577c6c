@@ -1,0 +1,4 @@
+// 1.21.1	2025-09-14T14:08:07.8347586	Herobrine Mod/Tags for minecraft:block
+228435ba94c7196dd2feb455888e228162721b19 data\minecraft\tags\block\needs_diamond_tool.json
+e8b7fcd5bedc927e4e1fb195404499a0e6b5ed26 data\minecraft\tags\block\mineable\pickaxe.json
+5f8bb379cbc60f2163330b6f53b9b5d62d2a4b7d data\minecraft\tags\block\needs_iron_tool.json

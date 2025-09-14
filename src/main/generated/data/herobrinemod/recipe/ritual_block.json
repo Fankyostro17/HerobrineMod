@@ -1,18 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "group": "banner",
   "key": {
     "#": {
       "item": "herobrinemod:ritual_core"
-    },
-    "-": {
-      "item": "minecraft:obsidian"
     },
     "*": {
       "item": "herobrinemod:obscured_gem"
     },
     "+": {
       "item": "minecraft:fire_charge"
+    },
+    "-": {
+      "item": "minecraft:obsidian"
     }
   },
   "pattern": [

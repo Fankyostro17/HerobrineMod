@@ -9,6 +9,7 @@
   "item.herobrinemod.ritual_wand": "Ritual Wand",
 
   "block.herobrinemod.ritual_block": "Ritual Block",
+  "block.herobrinemod.ritual_pedestal": "Ritual Pedestal Block",
   "block.herobrinemod.obscured_gem_ore": "Obscured Gem Ore",
   "block.herobrinemod.obscured_gem_deepslate_ore": "Obscured Gem Deepslate Ore",
   "block.herobrinemod.obscured_gem_block": "Obscured Gem Block",
@@ -20,7 +21,8 @@
   "tooltip.herobrinemod.ritual_wand" : "Press §eShift§r for more Information!",
   "tooltip.herobrinemod.bedrock_sword.tooltip": "The Final Sword of Herobrine",
   "tooltip.herobrinemod.iron_herobrine_sword.tooltip": "The First Sword of Herobrine",
-  "tooltip.herobrinemod.diamond_herobrine_sword_lv1.tooltip": "This sword is a creation of Herobrine for kick you out of your world",
-  "tooltip.herobrinemod.diamond_herobrine_sword_lv2.tooltip": "This sword is a creation of Herobrine for hunting you",
-  "tooltip.herobrinemod.diamond_herobrine_sword_lv3.tooltip": "This sword is a creation of Herobrine for kill you"
+  "tooltip.herobrinemod.diamond_herobrine_sword_lv1.tooltip": "This sword is an Herobrine's creation for kick you out of your world",
+  "tooltip.herobrinemod.diamond_herobrine_sword_lv2.tooltip": "This sword is an Herobrine's creation for hunting you",
+  "tooltip.herobrinemod.diamond_herobrine_sword_lv3.tooltip": "This sword is an Herobrine's creation for kill you",
+  "tooltip.herobrinemod.ritual_pedestal.tooltip": "Can be used for a gratest ritual"
 }

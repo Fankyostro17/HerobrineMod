@@ -2,6 +2,7 @@ package net.fanky17.herobrinemod.block;
 
 import net.fanky17.herobrinemod.HerobrineMod;
 import net.fanky17.herobrinemod.block.custom.RitualBlock;
+import net.fanky17.herobrinemod.block.custom.RitualPedestalBlock;
 import net.fanky17.herobrinemod.sound.ModSounds;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -27,7 +28,7 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
     public static final Block RITUAL_PEDESTAL = registerBlock("ritual_pedestal",
-            new RitualBlock(AbstractBlock.Settings.create().nonOpaque()));
+            new RitualPedestalBlock(AbstractBlock.Settings.create().nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

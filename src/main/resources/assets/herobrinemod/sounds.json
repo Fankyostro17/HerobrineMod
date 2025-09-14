@@ -1,0 +1,32 @@
+{
+  "obscured_gem_block_break": {
+    "subtitle": "sounds.herobrinemod.obscured_gem_block_break",
+    "sounds": [
+      "herobrinemod:obscured_gem_block_break"
+    ]
+  },
+  "obscured_gem_block_step": {
+    "subtitle": "sounds.herobrinemod.obscured_gem_block_step",
+    "sounds": [
+      "herobrinemod:obscured_gem_block_step"
+    ]
+  },
+  "obscured_gem_block_fall": {
+    "subtitle": "sounds.herobrinemod.obscured_gem_block_fall",
+    "sounds": [
+      "herobrinemod:obscured_gem_block_fall"
+    ]
+  },
+  "obscured_gem_block_hit": {
+    "subtitle": "sounds.herobrinemod.obscured_gem_block_hit",
+    "sounds": [
+      "herobrinemod:obscured_gem_block_hit"
+    ]
+  },
+  "obscured_gem_block_place": {
+    "subtitle": "sounds.herobrinemod.obscured_gem_block_place",
+    "sounds": [
+      "herobrinemod:obscured_gem_block_place"
+    ]
+  }
+}

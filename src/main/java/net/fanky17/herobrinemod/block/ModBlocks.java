@@ -1,13 +1,12 @@
 package net.fanky17.herobrinemod.block;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fanky17.herobrinemod.HerobrineMod;
+import net.fanky17.herobrinemod.sound.ModSounds;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -19,10 +18,10 @@ public class ModBlocks {
     public static final Block RITUAL_BLOCK = registerBlock("ritual_block",
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.STONE)));
     public static final Block OBSCURED_GEM_BLOCK = registerBlock("obscured_gem_block",
-            new Block(AbstractBlock.Settings.create().strength(20f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new Block(AbstractBlock.Settings.create().strength(20f).requiresTool().sounds(ModSounds.OBSCURED_GEM_BLOCK_SOUNDS)));
     public static final Block OBSCURED_GEM_ORE = registerBlock("obscured_gem_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(1, 3),
-            AbstractBlock.Settings.create().strength(3f).requiresTool()));
+            AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.STONE)));
     public static final Block OBSCURED_GEM_DEEPSLATE_ORE = registerBlock("obscured_gem_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 4),
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
@@ -38,13 +37,6 @@ public class ModBlocks {
 
     public static void registerModBlocks(){
         HerobrineMod.LOGGER.info("Registering Mod Blocks for " + HerobrineMod.MOD_ID);
-
-        /*ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.RITUAL_BLOCK);
-            entries.add(ModBlocks.OBSCURED_GEM_ORE);
-            entries.add(ModBlocks.OBSCURED_GEM_DEEPSLATE_ORE);
-            entries.add(ModBlocks.OBSCURED_GEM_BLOCK);
-        });*/
     }
 
 

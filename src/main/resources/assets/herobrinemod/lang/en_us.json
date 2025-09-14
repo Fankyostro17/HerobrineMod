@@ -17,5 +17,10 @@
 
   "tooltip.herobrinemod.ritual_block.tooltip": "Can be used for a gratest ritual",
   "tooltip.herobrinemod.ritual_wand.shift_down": "This item transform Ritual Block into Ritual Pedestal",
-  "tooltip.herobrinemod.ritual_wand" : "Press §eShift§r for more Information!"
+  "tooltip.herobrinemod.ritual_wand" : "Press §eShift§r for more Information!",
+  "tooltip.herobrinemod.bedrock_sword.tooltip": "The Final Sword of Herobrine",
+  "tooltip.herobrinemod.iron_herobrine_sword.tooltip": "The First Sword of Herobrine",
+  "tooltip.herobrinemod.diamond_herobrine_sword_lv1.tooltip": "This sword is a creation of Herobrine for kick you out of your world",
+  "tooltip.herobrinemod.diamond_herobrine_sword_lv2.tooltip": "This sword is a creation of Herobrine for hunting you",
+  "tooltip.herobrinemod.diamond_herobrine_sword_lv3.tooltip": "This sword is a creation of Herobrine for kill you"
 }

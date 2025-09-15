@@ -3,6 +3,11 @@ package net.fanky17.herobrinemod;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fanky17.herobrinemod.datagen.*;
+import net.fanky17.herobrinemod.trim.ModTrimMaterials;
+import net.fanky17.herobrinemod.world.ModConfiguredFeatures;
+import net.fanky17.herobrinemod.world.ModPlacedFeatures;
+import net.minecraft.registry.RegistryBuilder;
+import net.minecraft.registry.RegistryKeys;
 
 public class HerobrineModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -14,5 +19,16 @@ public class HerobrineModDataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(ModLootTableProvider::new);
         pack.addProvider(ModModelProvider::new);
         pack.addProvider(ModRecipeProvider::new);
+        pack.addProvider(ModRegistryDataGenerator::new);
 	}
+
+    @Override
+    public void buildRegistry(RegistryBuilder registryBuilder){
+        registryBuilder.addRegistry(RegistryKeys.TRIM_MATERIAL, ModTrimMaterials::bootstrap);
+        //registryBuilder.addRegistry(RegistryKeys.TRIM_PATTERN, ModTrimPatterns::bootstrap);
+        //registryBuilder.addRegistry(RegistryKeys.ENCHANTMENT, ModTrimMaterials::bootstrap);
+
+        registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+        registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
+    }
 }

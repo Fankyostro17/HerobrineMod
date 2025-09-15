@@ -1,4 +1,4 @@
-// 1.21.1	2025-09-15T18:49:01.4285397	Herobrine Mod/Model Definitions
+// 1.21.1	2025-09-15T22:43:21.3569548	Herobrine Mod/Model Definitions
 0266047ca2ec980e0cb3af88960af204499d22e7 assets\herobrinemod\models\item\bedrock_sword.json
 ebc22db0d7d15572440b8e180bddd88275ebba75 assets\herobrinemod\models\item\ritual_block.json
 6b4f691cb4fef0e7fa79f90abf13e82863ef78e3 assets\herobrinemod\models\item\diamond_herobrine_sword_lv3.json
@@ -9,8 +9,8 @@ ab3b73fdad8c8c881abd79b12d6af7b471b2a0c3 assets\herobrinemod\models\item\sky_bot
 34ff38caf970ef5263906fa50119f41865751898 assets\herobrinemod\models\item\obscured_gem_pickaxe.json
 360767e2ffe752f5e3543af888c693391af6357d assets\herobrinemod\blockstates\obscured_gem_deepslate_ore.json
 cd00bdc58f0cfd82f46f4d95d7cc048421467c71 assets\herobrinemod\models\block\obscured_gem_ore.json
-608242bb44c669e8efd187bb4819f854a5abac64 assets\herobrinemod\models\item\obscured_gem_ore.json
 c974db50ee21fd1e628e16cd7c05b6e7de1b9de4 assets\herobrinemod\models\item\iron_herobrine_sword.json
+608242bb44c669e8efd187bb4819f854a5abac64 assets\herobrinemod\models\item\obscured_gem_ore.json
 eac4e28ae9a26f27b0beb96b2d8379525cbe57ab assets\herobrinemod\blockstates\obscured_gem_ore.json
 bb3ae913319f12db51b2e1f2e631c62975988768 assets\herobrinemod\blockstates\obscured_gem_block.json
 9b4e0c8660eb89a5da222128a2208ca6237ab6c8 assets\herobrinemod\models\item\diamond_herobrine_sword_lv2.json

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_obscured_gem": {
+      "conditions": {
+        "items": [
+          {
+            "items": "herobrinemod:obscured_gem"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "herobrinemod:obscured_gem_sword"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_obscured_gem"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "herobrinemod:obscured_gem_sword"
+    ]
+  }
+}

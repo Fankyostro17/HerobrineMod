@@ -31,6 +31,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.OBSCURED_GEM, Models.GENERATED);
         itemModelGenerator.register(ModItems.RITUAL_CORE, Models.GENERATED);
         itemModelGenerator.register(ModItems.GALAXY_CORE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SKY_BOTTLE, Models.GENERATED);
 
 
         //tool

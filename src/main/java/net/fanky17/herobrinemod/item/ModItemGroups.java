@@ -30,6 +30,7 @@ public class ModItemGroups {
                 entries.add(ModItems.OBSCURED_GEM_SHOVEL);
                 entries.add(ModItems.GALAXY_SWORD);
                 entries.add(ModItems.GALAXY_CORE);
+                entries.add(ModItems.SKY_BOTTLE);
 
                 entries.add(ModBlocks.RITUAL_BLOCK);
                 entries.add(ModBlocks.RITUAL_PEDESTAL);

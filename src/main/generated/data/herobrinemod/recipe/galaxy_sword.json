@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "banner",
+  "key": {
+    "#": {
+      "item": "herobrinemod:galaxy_core"
+    },
+    "|": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    " # ",
+    " # ",
+    " | "
+  ],
+  "result": {
+    "count": 1,
+    "id": "herobrinemod:galaxy_sword"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "banner",
+  "key": {
+    "#": {
+      "item": "herobrinemod:obscured_gem"
+    },
+    "*": {
+      "item": "minecraft:obsidian"
+    },
+    "|": {
+      "item": "minecraft:nether_star"
+    },
+    "°": {
+      "item": "herobrinemod:sky_bottle"
+    }
+  },
+  "pattern": [
+    "°*°",
+    "*|*",
+    "#*#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "herobrinemod:galaxy_core"
+  }
+}

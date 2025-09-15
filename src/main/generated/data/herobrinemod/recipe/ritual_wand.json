@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "banner",
+  "key": {
+    "#": {
+      "item": "herobrinemod:obscured_gem"
+    },
+    "*": {
+      "item": "minecraft:obsidian"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " *#",
+    " |*",
+    "|  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "herobrinemod:ritual_wand"
+  }
+}

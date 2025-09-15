@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "banner",
+  "key": {
+    "#": {
+      "item": "herobrinemod:obscured_gem"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "## ",
+    "#| ",
+    " | "
+  ],
+  "result": {
+    "count": 1,
+    "id": "herobrinemod:obscured_gem_axe"
+  }
+}

@@ -2,6 +2,7 @@ package net.fanky17.herobrinemod.item;
 
 import net.fanky17.herobrinemod.HerobrineMod;
 import net.fanky17.herobrinemod.item.custom.RitualWandItem;
+import net.fanky17.herobrinemod.item.custom.SkyBottleItem;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
@@ -12,7 +13,8 @@ import net.minecraft.util.Identifier;
 import java.util.List;
 
 public class ModItems {
-    public static final Item BEDROCK_SWORD = registerItem("bedrock_sword", new Item(new Item.Settings()){
+    public static final Item BEDROCK_SWORD = registerItem("bedrock_sword", new SwordItem(ModToolMaterials.HEROBRINE_BEDROCK,
+            new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.HEROBRINE_BEDROCK, 50, -0.4f))){
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
             tooltip.add(Text.translatable("tooltip.herobrinemod.bedrock_sword.tooltip"));
@@ -20,7 +22,8 @@ public class ModItems {
         }
     });
 
-    public static final Item IRON_HEROBRINE_SWORD = registerItem("iron_herobrine_sword", new Item(new Item.Settings()){
+    public static final Item IRON_HEROBRINE_SWORD = registerItem("iron_herobrine_sword", new SwordItem(ModToolMaterials.HEROBRINE_IRON,
+            new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.HEROBRINE_IRON, 14, -2f))){
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
             tooltip.add(Text.translatable("tooltip.herobrinemod.iron_herobrine_sword.tooltip"));
@@ -28,7 +31,8 @@ public class ModItems {
         }
     });
 
-    public static final Item DIAMOND_HEROBRINE_SWORD_LV1 = registerItem("diamond_herobrine_sword_lv1", new Item(new Item.Settings()){
+    public static final Item DIAMOND_HEROBRINE_SWORD_LV1 = registerItem("diamond_herobrine_sword_lv1", new SwordItem(ModToolMaterials.HEROBRINE_DIAMOND,
+            new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.HEROBRINE_DIAMOND, 20, -1.6f))){
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
             tooltip.add(Text.translatable("tooltip.herobrinemod.diamond_herobrine_sword_lv1.tooltip"));
@@ -36,7 +40,8 @@ public class ModItems {
         }
     });
 
-    public static final Item DIAMOND_HEROBRINE_SWORD_LV2 = registerItem("diamond_herobrine_sword_lv2", new Item(new Item.Settings()){
+    public static final Item DIAMOND_HEROBRINE_SWORD_LV2 = registerItem("diamond_herobrine_sword_lv2", new SwordItem(ModToolMaterials.HEROBRINE_DIAMOND,
+            new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.HEROBRINE_DIAMOND, 30, -1.2f))){
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
             tooltip.add(Text.translatable("tooltip.herobrinemod.diamond_herobrine_sword_lv2.tooltip"));
@@ -44,7 +49,8 @@ public class ModItems {
         }
     });
 
-    public static final Item DIAMOND_HEROBRINE_SWORD_LV3 = registerItem("diamond_herobrine_sword_lv3", new Item(new Item.Settings()){
+    public static final Item DIAMOND_HEROBRINE_SWORD_LV3 = registerItem("diamond_herobrine_sword_lv3", new SwordItem(ModToolMaterials.HEROBRINE_DIAMOND,
+            new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.HEROBRINE_DIAMOND, 40, -0.8f))){
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
             tooltip.add(Text.translatable("tooltip.herobrinemod.diamond_herobrine_sword_lv3.tooltip"));
@@ -52,7 +58,7 @@ public class ModItems {
         }
     });
 
-    public static final Item RITUAL_CORE = registerItem("ritual_core", new Item(new Item.Settings()){
+    public static final Item RITUAL_CORE = registerItem("ritual_core", new Item(new Item.Settings().maxCount(1)){
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
             tooltip.add(Text.translatable("tooltip.herobrinemod.ritual_core.tooltip"));
@@ -60,7 +66,7 @@ public class ModItems {
         }
     });
 
-    public static final Item GALAXY_CORE = registerItem("galaxy_core", new Item(new Item.Settings()));
+    public static final Item GALAXY_CORE = registerItem("galaxy_core", new Item(new Item.Settings().maxCount(1)));
 
     public static final Item OBSCURED_GEM = registerItem("obscured_gem", new Item(new Item.Settings()));
 
@@ -82,7 +88,9 @@ public class ModItems {
             new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.OBSCURED_GEM, 0, -2.6f))));
 
     public static final Item GALAXY_SWORD = registerItem("galaxy_sword", new SwordItem(ModToolMaterials.GALAXY_CORE,
-            new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.GALAXY_CORE, 10, -1f))));
+            new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.GALAXY_CORE, 9, -1f))));
+
+    public static final Item SKY_BOTTLE = registerItem("sky_bottle", new SkyBottleItem(new Item.Settings().maxCount(16)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(HerobrineMod.MOD_ID, name), item);

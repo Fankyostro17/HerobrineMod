@@ -35,6 +35,89 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RITUAL_CORE), conditionsFromItem(ModItems.RITUAL_CORE))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GALAXY_SWORD)
+                .input('#', ModItems.GALAXY_CORE)
+                .input('|', Items.NETHER_STAR)
+                .pattern(" # ")
+                .pattern(" # ")
+                .pattern(" | ")
+                .group("banner")
+                .criterion(hasItem(ModItems.GALAXY_CORE), conditionsFromItem(ModItems.GALAXY_CORE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.OBSCURED_GEM_SWORD)
+                .input('#', ModItems.OBSCURED_GEM)
+                .input('|', Items.STICK)
+                .pattern(" # ")
+                .pattern(" # ")
+                .pattern(" | ")
+                .group("banner")
+                .criterion(hasItem(ModItems.OBSCURED_GEM), conditionsFromItem(ModItems.OBSCURED_GEM))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.OBSCURED_GEM_PICKAXE)
+                .input('#', ModItems.OBSCURED_GEM)
+                .input('|', Items.STICK)
+                .pattern("###")
+                .pattern(" | ")
+                .pattern(" | ")
+                .group("banner")
+                .criterion(hasItem(ModItems.OBSCURED_GEM), conditionsFromItem(ModItems.OBSCURED_GEM))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.OBSCURED_GEM_SHOVEL)
+                .input('#', ModItems.OBSCURED_GEM)
+                .input('|', Items.STICK)
+                .pattern(" # ")
+                .pattern(" | ")
+                .pattern(" | ")
+                .group("banner")
+                .criterion(hasItem(ModItems.OBSCURED_GEM), conditionsFromItem(ModItems.OBSCURED_GEM))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.OBSCURED_GEM_HOE)
+                .input('#', ModItems.OBSCURED_GEM)
+                .input('|', Items.STICK)
+                .pattern("## ")
+                .pattern(" | ")
+                .pattern(" | ")
+                .group("banner")
+                .criterion(hasItem(ModItems.OBSCURED_GEM), conditionsFromItem(ModItems.OBSCURED_GEM))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.OBSCURED_GEM_AXE)
+                .input('#', ModItems.OBSCURED_GEM)
+                .input('|', Items.STICK)
+                .pattern("## ")
+                .pattern("#| ")
+                .pattern(" | ")
+                .group("banner")
+                .criterion(hasItem(ModItems.OBSCURED_GEM), conditionsFromItem(ModItems.OBSCURED_GEM))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RITUAL_WAND)
+                .input('#', ModItems.OBSCURED_GEM)
+                .input('*', Items.OBSIDIAN)
+                .input('|', Items.STICK)
+                .pattern(" *#")
+                .pattern(" |*")
+                .pattern("|  ")
+                .group("banner")
+                .criterion(hasItem(ModItems.OBSCURED_GEM), conditionsFromItem(ModItems.OBSCURED_GEM))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GALAXY_CORE)
+                .input('#', ModItems.OBSCURED_GEM)
+                .input('°', ModItems.SKY_BOTTLE)
+                .input('*', Items.OBSIDIAN)
+                .input('|', Items.NETHER_STAR)
+                .pattern("°*°")
+                .pattern("*|*")
+                .pattern("#*#")
+                .group("banner")
+                .criterion(hasItem(ModItems.OBSCURED_GEM), conditionsFromItem(ModItems.OBSCURED_GEM))
+                .offerTo(exporter);
+
         /*ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.OBSCURED_GEM, 9)
                 .input(ModBlocks.OBSCURED_GEM_BLOCK)
                 .criterion(hasItem(ModBlocks.OBSCURED_GEM_BLOCK), conditionsFromItem(ModBlocks.OBSCURED_GEM_BLOCK))

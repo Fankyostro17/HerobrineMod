@@ -14,6 +14,7 @@
   "item.herobrinemod.obscured_gem_axe": "Obscured Gem Axe",
   "item.herobrinemod.galaxy_sword": "Galaxy Sword",
   "item.herobrinemod.galaxy_core": "Galaxy Core",
+  "item.herobrinemod.sky_bottle": "Sky Bottle",
 
   "block.herobrinemod.ritual_block": "Ritual Block",
   "block.herobrinemod.ritual_pedestal": "Ritual Pedestal Block",
@@ -22,6 +23,7 @@
   "block.herobrinemod.obscured_gem_block": "Obscured Gem Block",
 
   "itemgroup.herobrinemod.herobrine_items": "Herobrine Items",
+
   "tooltip.herobrinemod.ritual_core.tooltip": "the heart of everything",
   "tooltip.herobrinemod.ritual_block.tooltip": "Can be used for a gratest ritual",
   "tooltip.herobrinemod.ritual_wand.shift_down": "This item transform Ritual Block into Ritual Pedestal",
@@ -31,5 +33,7 @@
   "tooltip.herobrinemod.diamond_herobrine_sword_lv1.tooltip": "This sword is an Herobrine's creation for kick you out of your world",
   "tooltip.herobrinemod.diamond_herobrine_sword_lv2.tooltip": "This sword is an Herobrine's creation for hunting you",
   "tooltip.herobrinemod.diamond_herobrine_sword_lv3.tooltip": "This sword is an Herobrine's creation for kill you",
-  "tooltip.herobrinemod.ritual_pedestal.tooltip": "Can be used for a gratest ritual"
+  "tooltip.herobrinemod.ritual_pedestal.tooltip": "Can be used for a gratest ritual",
+  "tooltip.herobrinemod.sky_bottle.shift_down": "The Sky in your hands",
+  "tooltip.herobrinemod.sky_bottle": "Press §eShift§r for more Information!"
 }
